@@ -1,12 +1,19 @@
-import PropTypes, { number } from 'prop-types';
+import React from 'react';
+import Painting from './components/painting';
+import user from './user.json'
 
-Product.propTypes = {
-  username: PropTypes.string,
-  tag: PropTypes.string,
-  location: PropTypes.string,
-  avatar: PropTypes.string,
-  stats: PropTypes.object,
+export default function App() {
+    return (
+        <div>
+            <Painting
+                avatar={user.avatar}
+                username={user.username}
+                location={user.location}
+                followers={user.stats.followers}
+                views={user.stats.views}
+                likes={user.stats.likes}
+            />
+        </div>
+    );
 }
-
-
 
