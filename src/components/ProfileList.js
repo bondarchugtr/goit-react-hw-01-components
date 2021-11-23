@@ -1,5 +1,6 @@
 import React from 'react';
 import Profile from './profile';
+import PropTypes from 'prop-types';
 
 function ProfileList({ items }) {
     return (
@@ -18,6 +19,10 @@ function ProfileList({ items }) {
             ))}
         </ul>
     )
+}
+
+ProfileList.propTypes = {
+    items: PropTypes.arrayOf,
 }
 
 export default ProfileList;
