@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/goit-react-hw-01-components/static/js/main.80fe21f2.chunk.js",
+    "main.js.map": "/goit-react-hw-01-components/static/js/main.80fe21f2.chunk.js.map",
+    "runtime~main.js": "/goit-react-hw-01-components/static/js/runtime~main.681d89f7.js",
+    "runtime~main.js.map": "/goit-react-hw-01-components/static/js/runtime~main.681d89f7.js.map",
+    "static/js/2.e062fd5c.chunk.js": "/goit-react-hw-01-components/static/js/2.e062fd5c.chunk.js",
+    "static/js/2.e062fd5c.chunk.js.map": "/goit-react-hw-01-components/static/js/2.e062fd5c.chunk.js.map",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "precache-manifest.bdf302a760303fa6da082ed7759fbf0b.js": "/goit-react-hw-01-components/precache-manifest.bdf302a760303fa6da082ed7759fbf0b.js",
+    "service-worker.js": "/goit-react-hw-01-components/service-worker.js"
+  }
+}
