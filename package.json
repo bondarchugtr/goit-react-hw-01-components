@@ -1,26 +1,35 @@
 {
   "name": "goit-react-hw-01-components",
   "version": "0.1.0",
+  "homepage": "https://bondarchugtr.github.io/goit-react-hw-01-components/",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "modern-normalize": "^1.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "3.0.1",
+    "simple-git": "^2.47.0",
     "web-vitals": "^1.0.1",
-    "webpack": "^4.44.2",
+    "webpack": "^4.46.0",
     "yarn": "^1.22.17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bondarchugtr/goit-react-hw-01-components.git"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
+    "eject": "react-scripts eject",
+    "prepare": "husky install",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },  "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
@@ -39,6 +48,15 @@
     ]
   },
   "devDependencies": {
+    "babel-plugin-react-html-attrs": "^3.0.5",
+    "eslint": "^5.16.0",
+    "husky": ">=6",
+    "lint-staged": ">=10",
+    "prettier": "^2.4.1",
     "prop-types": "^15.7.2"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   }
 }

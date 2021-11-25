@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from './profile';
+import Profile from './Profile';
 import PropTypes from 'prop-types';
 
 function ProfileList({ items }) {
@@ -10,6 +10,7 @@ function ProfileList({ items }) {
                     <Profile
                         avatar={item.avatar}
                         username={item.username}
+                        tag={item.tag}
                         location={item.location}
                         followers={item.stats.followers}
                         views={item.stats.views}
@@ -22,7 +23,7 @@ function ProfileList({ items }) {
 }
 
 ProfileList.propTypes = {
-    items: PropTypes.arrayOf,
+    items: PropTypes.array,
 }
 
 export default ProfileList;
