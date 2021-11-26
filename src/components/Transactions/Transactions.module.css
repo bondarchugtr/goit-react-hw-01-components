@@ -1,0 +1,40 @@
+
+.table{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    background: rgb(199, 199, 178);
+}
+
+.thTitle{
+    padding: 10px;
+}
+
+.title{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.thead{
+    background-color: bisque;
+}
+
+.row{
+    text-align: center; 
+}
+
+.row:nth-child(2n+1){
+background-color: rgb(99, 163, 102);
+}
+
+.row:nth-child(2n+2){
+background-color: rgb(135, 222, 222);
+}
+
+.call{
+    padding: 10px;
+}
+
+
+

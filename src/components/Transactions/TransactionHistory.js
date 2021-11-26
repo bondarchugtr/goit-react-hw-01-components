@@ -1,29 +1,23 @@
 import React from 'react';
-import Transactions from '../Transactions/Transactions';
-
-
+import s from './Transactions.module.css'
 function TransactionHistory ({items}){
     return (
             <>
-                <h2 className="title">Transactions</h2>
-                <table class="transaction-history">
-                    <thead>
-                        <tr>
-                        <th>Type</th>
-                        <th>Amount</th>
-                        <th>Currency</th>
+                <h2 className={s.title}>Transactions</h2>
+                <table className={s.table}>
+                    <thead className = {s.thead}>
+                        <tr className={s.trTitle}>
+                            <th className={s.thTitle}>Type</th>
+                            <th className={s.thTitle}>Amount</th>
+                            <th className={s.thTitle}>Currency</th>
                         </tr>
                     </thead>
-
                     <tbody >
                         {items.map(item =>(
-                            <tr key ={item.id}>
-                              <Transactions
-                              type={item.type}
-                              amount={item.amount}
-                              currency={item.currency}
-                              />  
-                                
+                            <tr key ={item.id} className={s.row}>
+                            <td className={s.call}>{item.type} </td>
+                            <td className={s.call}>{item.amount} </td>
+                            <td className={s.call}>{item.currency} </td>
                             </tr>
                         ))}
                     </tbody>
