@@ -3,12 +3,38 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    width: 320px;
+    width: 500px;
     text-align: center;
-    
+    border: 1px solid;
+    box-shadow: 0 0 10px rgb(104, 110, 110);
 }
+
+.title{
+    margin: 0;
+    color: rgb(132, 158, 158);
+    padding: 25px;
+    background-color: bisque;
+}
+
 
 .statlist{
     display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    border-top: 1px solid;
+    margin: 0;
 }
+
+
+.item{
+    padding: 6.59%;
+}
+
+.label{
+    display: block;
+}
+
+
 

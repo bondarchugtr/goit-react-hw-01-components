@@ -1,5 +1,4 @@
 import React from 'react';
-// import ProfileList from './components/Profile/ProfileList'
 import StatisticList from './components/Statistics/Statisticlist'
 import FriedList from './components/Friends/FriendList'
 import user from './components/Profile/user.json'
@@ -28,4 +27,3 @@ export default function App() {
         </div>
     );
 }
-

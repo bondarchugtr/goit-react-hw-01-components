@@ -6,17 +6,19 @@ import s from './Statistics.module.css'
 function StatisticList({ items }) {
     return (
         < section className={s.statistics} >
-          <h2 class="title">Upload stats</h2>
+        <h2 className={s.title}>Upload stats</h2>
             <ul className={s.statlist}>
                 {items.map(item => (
-                    <li key={item.id}>
+                    <li key={item.id} className={s.item}   style={{
+                        backgroundColor: `#${Math.random().toString(16).slice(2, 8)}`,
+                      }}>
                         <Statistics
                             label={item.label}
                             percentage={item.percentage}
                         />
                     </li>
                 ))}
-            </ul>
+       </ul>
         </section >
     )
 }
