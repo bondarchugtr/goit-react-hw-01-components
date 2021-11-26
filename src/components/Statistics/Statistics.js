@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 export default function Statistics(props) {
-    const { label, percentage} = props
+    const { label, percentage, title} = props
     return <section className="statistics">
         <ul className="stat-list">
             <li className="item">

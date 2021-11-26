@@ -1,11 +1,13 @@
 import React from 'react';
 import Statistics from '../Statistics/Statistics';
 import PropTypes from 'prop-types';
+import s from './Statistics.module.css'
 
 function StatisticList({ items }) {
     return (
-        < section className=" statistics" >
-            <ul className="stat-list">
+        < section className={s.statistics} >
+          <h2 class="title">Upload stats</h2>
+            <ul className={s.statlist}>
                 {items.map(item => (
                     <li key={item.id}>
                         <Statistics
