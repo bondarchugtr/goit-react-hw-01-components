@@ -1,4 +1,29 @@
-img{
-margin: 0;
-padding: 0;
+
+
+.avatar{
+    border-radius: 20%;
+    margin-right: 15px;
+    background-color: bisque;
 }
+
+.item{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    box-shadow: 0 0 10px rgb(240, 230, 188);
+    padding: 10px;
+}
+
+.item:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.status{
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+
