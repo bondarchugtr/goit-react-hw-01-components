@@ -1,56 +1,53 @@
-.Profile{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    width: 320px;
-    border: 1px solid rgb(173, 173, 165);
-    border-radius: 15px;
-    text-align: center;
-    background-color: darkgray;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5)
-} 
-
-.Avatar{
-    border-radius: 50%;
-    width: 150px;
-    border: 1px solid #797964;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5)
+.Profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 320px;
+  border: 1px solid rgb(173, 173, 165);
+  border-radius: 15px;
+  text-align: center;
+  background-color: darkgray;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-li{
-    list-style-type:none
+.Avatar {
+  border-radius: 50%;
+  width: 150px;
+  border: 1px solid #797964;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.Description{
-padding:20px;
-
+li {
+  list-style-type: none;
 }
 
-.stats{
-    display: flex;
-    border-top: 1px solid ; 
-    margin: 0;
-    padding: 0;
-    background-color: rgb(129, 125, 125);
+.Description {
+  padding: 20px;
 }
 
-.itemStats:not(:last-child){
-    border-right: 1px solid ;
-
-} 
-.statistics{
-
-    display: flex;
-    flex-direction: column;
+.stats {
+  display: flex;
+  border-top: 1px solid;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(129, 125, 125);
 }
 
-.itemStats{
-    width: 33.33333%;
-    padding: 15px;
+.itemStats:not(:last-child) {
+  border-right: 1px solid;
+}
+.statistics {
+  display: flex;
+  flex-direction: column;
 }
 
-.label{
-    color: rgb(212, 240, 135);
-    margin-bottom: 5px;
+.itemStats {
+  width: 33.33333%;
+  padding: 15px;
+}
+
+.label {
+  color: rgb(212, 240, 135);
+  margin-bottom: 5px;
 }

@@ -9299,10 +9299,10 @@
   "resolved" "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.1.2.tgz"
   "version" "1.1.2"
 
-"prettier@^2.4.1":
-  "integrity" "sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA=="
-  "resolved" "https://registry.npmjs.org/prettier/-/prettier-2.4.1.tgz"
-  "version" "2.4.1"
+"prettier@^2.5.0":
+  "integrity" "sha512-FM/zAKgWTxj40rH03VxzIPdXmj39SwSjwG0heUcNFwI+EMZJnY93yAiKXM3dObIKAM5TA88werc8T/EwhB45eg=="
+  "resolved" "https://registry.npmjs.org/prettier/-/prettier-2.5.0.tgz"
+  "version" "2.5.0"
 
 "pretty-bytes@^5.1.0":
   "integrity" "sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg=="
